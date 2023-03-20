@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PORTFOLIO</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link rel="stylesheet" href="Style1.css">
+	<script src="https://kit.fontawesome.com/710418d84d.js" crossorigin="anonymous"></script>
+	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<style>
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+	border-color: unset !important;
+	background-color: unset !important;
+	color: white;
+	border: unset !important;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: unset !important;
+    border: unset !important;
+    color: white;
+}
+</style>
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>
+				<ul id="sidemenu">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<i class="fas fa-times" onclick="closemenu()"></i>
+				</ul>
+				<i class="fas fa-bars" onclick="openmenu()"></i>
+			</nav>
+			
+			<div class="header-text" id="home">
+				<!-- <p>Java Devloper</p> -->
+				<h1>Hi,I'm <span>Omkar</span> Kharat <br> I'm Java Fullstack Devloper</h1>
+			</div>
+		</div>
+	</div>
+	<!--------------------About Section-------------------->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="Imgs\aboutbg.jpg">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>I am seeking a challenging role in a reputable company to work with my technical expertise to help the company grow and strengthen my abilities by working with new things<br> <br> 
+						This year, I completed course in Bsc(Computer Science) from the Mudhoji Collage,Phaltan and I am currently doing work in java courses and I aim to find an internship program would contribute to my educational background and passion for Computer Science. Alongside, I would obtain first-hand experience at the company.
+					</p>
+
+<nav>
+<div class="nav nav-tabs" id="nav-tab" role="tablist" style="border: none;">
+<button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home">Skills</button>
+<button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" >Education</button>
+<button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact">Achivment</button>
+</div>
+</nav>
+
+<div class="tab-content" id="nav-tabContent">
+<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><ul>
+			<li><span>HTML</span></li>
+			<li><span>CSS</span></li>
+			<li><span>JS</span></li>
+			<li><span>BOOSTRAP</span></li>
+			<li><span>CORE JAVA</span></li>
+			<li><span>GITHUB</span></li>
+			<li><span>Project completed in C#.NET</span></li>
+		</ul></div>
+<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"><ul>
+
+			<li><span>2021-Current</span><br>Java Fullstack Devloper</li>
+			<li><span>2019 - 2022</span><br>Bsc.(Computer Science)</li>
+			<li><span>2017 - 2019</span><br>12th Higher Education</li>
+			
+		</ul></div>
+<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"><ul>
+			<li><span>Sport Certifacate</span><br>Achived Hockey State level as well District level Championship.</li>
+			<li><span>NSS state level Certificate</span><br>This certificate achived at District level camp.</li>
+			<li><span>Techno Spirit</span><br>This is college level compition in this i archived 2nd place.</li>
+		</ul></div>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-------------Contact------------------->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="cont-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-sharp fa-solid fa-paper-plane"></i>omkarkharatok2001@gmail.com</p>
+				<p><i class="fa-solid fa-square-phone"></i>+91 9860850435</p>
+				<div class="social-icons">
+					<a href="https://www.instagram.com/omkar_kharat_ok/"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/in/omkar-kharat-7744ba239/"><i class="fa-brands fa-linkedin"></i></a>
+					<a href="https://github.com/omkarkharatok/Learn-Git"><i class="fa-brands fa-github"></i></a>
+					<a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://wa.me/919860850435"><i class="fa-brands fa-whatsapp"></i></a>				
+				</div>
+				<a href=".\Imgs\Omkar Kharat.pdf" class="btns btn2" style="color: white;" target="blank">Download CV  <i class="fa fa-download"></i></a>
+			</div>
+			<div class="cont-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name="Email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btns btn2">Submit</button>
+				</form>
+				<span id="msg"></span>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>Copyright @ Omkar. Made with <i class="fas fa-heart"></i> by Easy Tutorial</p>
+		</div>
+	</div>
+	
+</div>
+	<script>
+		var sidemenu = document.getElementById('sidemenu');
+
+		function openmenu(argument) {
+			sidemenu.style.right = "0";
+		}
+		function closemenu(argument) {
+			sidemenu.style.right = "-200px";
+		}
+	</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzM6UV-_A99D2OvYJ09LNhKDXKPyTFpR52tNDXIcy0FU1g85YXsmgEnu9PZcqKyzu1xkA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+      	msg.innerHTML = "Message sent successfully"
+      	setTimeout(function(){
+      		msg.innerHTML = ""
+      	},5000)
+      	form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
